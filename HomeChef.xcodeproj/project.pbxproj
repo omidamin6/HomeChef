@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C41B5D6268A66D50008A72B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41B5D5268A66D50008A72B /* Tests_iOS.swift */; };
+		5C41B5E1268A66D50008A72B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41B5E0268A66D50008A72B /* Tests_macOS.swift */; };
+		5C41B5E3268A66D50008A72B /* HomeChefApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41B5BA268A66D30008A72B /* HomeChefApp.swift */; };
+		5C41B5E4268A66D50008A72B /* HomeChefApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41B5BA268A66D30008A72B /* HomeChefApp.swift */; };
+		5C41B5E5268A66D50008A72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41B5BB268A66D30008A72B /* ContentView.swift */; };
+		5C41B5E6268A66D50008A72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41B5BB268A66D30008A72B /* ContentView.swift */; };
+		5C41B5E7268A66D50008A72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C41B5BC268A66D50008A72B /* Assets.xcassets */; };
+		5C41B5E8268A66D50008A72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C41B5BC268A66D50008A72B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C41B5D2268A66D50008A72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C41B5B5268A66D30008A72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C41B5C0268A66D50008A72B;
+			remoteInfo = "HomeChef (iOS)";
+		};
+		5C41B5DD268A66D50008A72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C41B5B5268A66D30008A72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C41B5C8268A66D50008A72B;
+			remoteInfo = "HomeChef (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C41B5BA268A66D30008A72B /* HomeChefApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChefApp.swift; sourceTree = "<group>"; };
+		5C41B5BB268A66D30008A72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C41B5BC268A66D50008A72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C41B5C1268A66D50008A72B /* HomeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41B5C4268A66D50008A72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C41B5C9268A66D50008A72B /* HomeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41B5CB268A66D50008A72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C41B5CC268A66D50008A72B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5C41B5D1268A66D50008A72B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41B5D5268A66D50008A72B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		5C41B5D7268A66D50008A72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C41B5DC268A66D50008A72B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41B5E0268A66D50008A72B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		5C41B5E2268A66D50008A72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C41B5BE268A66D50008A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5C6268A66D50008A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5CE268A66D50008A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5D9268A66D50008A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C41B5B4268A66D30008A72B = {
+			isa = PBXGroup;
+			children = (
+				5C41B5B9268A66D30008A72B /* Shared */,
+				5C41B5C3268A66D50008A72B /* iOS */,
+				5C41B5CA268A66D50008A72B /* macOS */,
+				5C41B5D4268A66D50008A72B /* Tests iOS */,
+				5C41B5DF268A66D50008A72B /* Tests macOS */,
+				5C41B5C2268A66D50008A72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C41B5B9268A66D30008A72B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5C41B5BA268A66D30008A72B /* HomeChefApp.swift */,
+				5C41B5BB268A66D30008A72B /* ContentView.swift */,
+				5C41B5BC268A66D50008A72B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5C41B5C2268A66D50008A72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C41B5C1268A66D50008A72B /* HomeChef.app */,
+				5C41B5C9268A66D50008A72B /* HomeChef.app */,
+				5C41B5D1268A66D50008A72B /* Tests iOS.xctest */,
+				5C41B5DC268A66D50008A72B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C41B5C3268A66D50008A72B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C41B5C4268A66D50008A72B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5C41B5CA268A66D50008A72B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C41B5CB268A66D50008A72B /* Info.plist */,
+				5C41B5CC268A66D50008A72B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5C41B5D4268A66D50008A72B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C41B5D5268A66D50008A72B /* Tests_iOS.swift */,
+				5C41B5D7268A66D50008A72B /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		5C41B5DF268A66D50008A72B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C41B5E0268A66D50008A72B /* Tests_macOS.swift */,
+				5C41B5E2268A66D50008A72B /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C41B5C0268A66D50008A72B /* HomeChef (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C41B5EB268A66D50008A72B /* Build configuration list for PBXNativeTarget "HomeChef (iOS)" */;
+			buildPhases = (
+				5C41B5BD268A66D50008A72B /* Sources */,
+				5C41B5BE268A66D50008A72B /* Frameworks */,
+				5C41B5BF268A66D50008A72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeChef (iOS)";
+			productName = "HomeChef (iOS)";
+			productReference = 5C41B5C1268A66D50008A72B /* HomeChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C41B5C8268A66D50008A72B /* HomeChef (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C41B5EE268A66D50008A72B /* Build configuration list for PBXNativeTarget "HomeChef (macOS)" */;
+			buildPhases = (
+				5C41B5C5268A66D50008A72B /* Sources */,
+				5C41B5C6268A66D50008A72B /* Frameworks */,
+				5C41B5C7268A66D50008A72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeChef (macOS)";
+			productName = "HomeChef (macOS)";
+			productReference = 5C41B5C9268A66D50008A72B /* HomeChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C41B5D0268A66D50008A72B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C41B5F1268A66D50008A72B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				5C41B5CD268A66D50008A72B /* Sources */,
+				5C41B5CE268A66D50008A72B /* Frameworks */,
+				5C41B5CF268A66D50008A72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C41B5D3268A66D50008A72B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 5C41B5D1268A66D50008A72B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5C41B5DB268A66D50008A72B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C41B5F4268A66D50008A72B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				5C41B5D8268A66D50008A72B /* Sources */,
+				5C41B5D9268A66D50008A72B /* Frameworks */,
+				5C41B5DA268A66D50008A72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C41B5DE268A66D50008A72B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 5C41B5DC268A66D50008A72B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C41B5B5268A66D30008A72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5C41B5C0268A66D50008A72B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					5C41B5C8268A66D50008A72B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					5C41B5D0268A66D50008A72B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5C41B5C0268A66D50008A72B;
+					};
+					5C41B5DB268A66D50008A72B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5C41B5C8268A66D50008A72B;
+					};
+				};
+			};
+			buildConfigurationList = 5C41B5B8268A66D30008A72B /* Build configuration list for PBXProject "HomeChef" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C41B5B4268A66D30008A72B;
+			productRefGroup = 5C41B5C2268A66D50008A72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C41B5C0268A66D50008A72B /* HomeChef (iOS) */,
+				5C41B5C8268A66D50008A72B /* HomeChef (macOS) */,
+				5C41B5D0268A66D50008A72B /* Tests iOS */,
+				5C41B5DB268A66D50008A72B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C41B5BF268A66D50008A72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41B5E7268A66D50008A72B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5C7268A66D50008A72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41B5E8268A66D50008A72B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5CF268A66D50008A72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5DA268A66D50008A72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C41B5BD268A66D50008A72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41B5E5268A66D50008A72B /* ContentView.swift in Sources */,
+				5C41B5E3268A66D50008A72B /* HomeChefApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5C5268A66D50008A72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41B5E6268A66D50008A72B /* ContentView.swift in Sources */,
+				5C41B5E4268A66D50008A72B /* HomeChefApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5CD268A66D50008A72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41B5D6268A66D50008A72B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C41B5D8268A66D50008A72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41B5E1268A66D50008A72B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C41B5D3268A66D50008A72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C41B5C0268A66D50008A72B /* HomeChef (iOS) */;
+			targetProxy = 5C41B5D2268A66D50008A72B /* PBXContainerItemProxy */;
+		};
+		5C41B5DE268A66D50008A72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C41B5C8268A66D50008A72B /* HomeChef (macOS) */;
+			targetProxy = 5C41B5DD268A66D50008A72B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C41B5E9268A66D50008A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C41B5EA268A66D50008A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5C41B5EC268A66D50008A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.HomeChef;
+				PRODUCT_NAME = HomeChef;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C41B5ED268A66D50008A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.HomeChef;
+				PRODUCT_NAME = HomeChef;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C41B5EF268A66D50008A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HC.HomeChef;
+				PRODUCT_NAME = HomeChef;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C41B5F0268A66D50008A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HC.HomeChef;
+				PRODUCT_NAME = HomeChef;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5C41B5F2268A66D50008A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HC.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HomeChef (iOS)";
+			};
+			name = Debug;
+		};
+		5C41B5F3268A66D50008A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HC.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HomeChef (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C41B5F5268A66D50008A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "HC.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HomeChef (macOS)";
+			};
+			name = Debug;
+		};
+		5C41B5F6268A66D50008A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "HC.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HomeChef (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C41B5B8268A66D30008A72B /* Build configuration list for PBXProject "HomeChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C41B5E9268A66D50008A72B /* Debug */,
+				5C41B5EA268A66D50008A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C41B5EB268A66D50008A72B /* Build configuration list for PBXNativeTarget "HomeChef (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C41B5EC268A66D50008A72B /* Debug */,
+				5C41B5ED268A66D50008A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C41B5EE268A66D50008A72B /* Build configuration list for PBXNativeTarget "HomeChef (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C41B5EF268A66D50008A72B /* Debug */,
+				5C41B5F0268A66D50008A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C41B5F1268A66D50008A72B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C41B5F2268A66D50008A72B /* Debug */,
+				5C41B5F3268A66D50008A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C41B5F4268A66D50008A72B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C41B5F5268A66D50008A72B /* Debug */,
+				5C41B5F6268A66D50008A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C41B5B5268A66D30008A72B /* Project object */;
+}
